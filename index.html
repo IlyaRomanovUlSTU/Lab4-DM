@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset = "utf-8">
+        <title>Нахождение кратчайшего пути в графе</title>
+        <script type="text/javascript" src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>        
+    </head>
+    <body>
+        <h1>Нахождение кратчайшего пути в графе</h1>
+        <form id = "form">
+            Введите весовую матрицу графа.<br>
+            Если ребро между вершинами не существует, введите "-".<br>
+            Главную диагональ заполните нулями.<br>
+            <br>
+            <textarea name = "matrix" style = "width:400px; height:400px"></textarea><br>
+            <br>
+            Найти путь из вершины <input type = "text" name = "start" size = "1"> в вершину <input type = "text" name = "finish" size = "1"><br>
+            <br>
+            <input type="submit" value = "Выполнить"><br>
+        </form>
+        <br><br>
+        <div id = "result"></div>
+        <script type="text/javascript" src = "a.js"></script>
+    </body>
+</html>
